@@ -9,11 +9,11 @@ results <- array(NA,dim=c(375000,12,43))
 
 #note that we used more samples from CEDW 
 
-results[,,1] <- as.matrix(read.csv("results/occ_run_17Sept.AMCR.csv")) #AMCR - Exploiter 
-results[,,2] <- as.matrix(read.csv("results/occ_run_17Sept.AMGO.csv")) #AMGO - Adapter
-results[,,3] <- as.matrix(read.csv("results/occ_run_17Sept.AMRO.csv")) #AMRO - Adapter
-results[,,4] <- as.matrix(read.csv("results/occ_run_17Sept.ANHU.csv")) #ANHU - Exploiter
-results[,,5] <- as.matrix(read.csv("results/occ_run_17Sept.BARS.csv")) #BARS - Exploiter
+results[,,1] <- as.matrix(read.csv("results/occ_run4.AMCR.csv")) #AMCR - Exploiter 
+results[,,2] <- as.matrix(read.csv("results/occ_run4.AMGO.csv")) #AMGO - Adapter
+results[,,3] <- as.matrix(read.csv("results/occ_run4.AMRO.csv")) #AMRO - Adapter
+results[,,4] <- as.matrix(read.csv("results/occ_run4.ANHU.csv")) #ANHU - Exploiter
+results[,,5] <- as.matrix(read.csv("results/occ_run4.BARS.csv")) #BARS - Exploiter
 results[,,6] <- as.matrix(read.csv("results/occ_run4.BCCH.csv")) #BCCH - Adapter
 results[,,7] <- as.matrix(read.csv("results/occ_run4.BEWR.csv")) #BEWR - Adapter
 results[,,8] <- as.matrix(read.csv("results/occ_run4.BHCO.csv")) #BHCO - Exploiter
