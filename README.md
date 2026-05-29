@@ -69,4 +69,4 @@ DeLap JH, JM Marzluff, and SJ Converse. 2026. Influence of new residential const
 
 ### How to Use this Repository 
 
-It is not necessary to run the data processing code, as the data object for analysis is already stored. Run analysis code first, which will create data objects that can be subsequently run to create figures. Run time for all analyses is >24 hours. 
+It is not necessary to run the data processing code, as the data object for analysis is already stored. Run analysis code first (occupancy_guilds.r and occupancy_singlespp.r), which will create data objects that can be subsequently run to create figures (process_occupancy_results.r). Run time for all analyses is >24 hours. 
