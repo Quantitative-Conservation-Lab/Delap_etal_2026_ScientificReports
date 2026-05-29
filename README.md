@@ -17,6 +17,8 @@ Folders include scripts, data, results, and figures. See files listed below.
 
 ### [Scripts](./scripts)
 
+process_original_data.R 
+
 occupancy_guilds.R
 
 occupancy_singlespp.R
@@ -25,11 +27,13 @@ process_occupancy_results.R
  
 ### [Data](./data) 
 
-bird.binary.noCorrRes.csv
+Bird_Data.csv (original data form) 
+
+bird.binary.noCorrRes.csv (processed for analysis)
 
 ### [Results](./results)
 
-
+<47 files: community, 3 guilds, 43 species>
 
 ### [Figures](./figures)
 
@@ -47,9 +51,11 @@ here (v1.0.1)
 
 tidyr (v1.3.0)
 
-lme4 (v1.1.33)
+nimble (v1.2.1)
 
-stringr (v1.5.0)
+MCMCvis (v0.16.2)
+
+coda (v0.19-4)
 
 ggplot2 (v3.4.2)
 
@@ -57,11 +63,10 @@ ggpub4 (v0.6.0)
 
 viridis (v0.6.3)
 
-
 ### Details of Article 
 
 DeLap JH, JM Marzluff, and SJ Converse. 2026. Influence of new residential construction varying in housing density on bird species, human tolerance guilds, and communities. https://doi.org/10.1038/s41598-026-54885-3/ 
 
 ### How to Use this Repository 
 
-Run analysis code first, which will create several data objects that can be subsequently run to create figures. Run time for all analyses is >24 hours. 
+It is not necessary to run the data processing code, as the data object for analysis is already stored. Run analysis code first, which will create data objects that can be subsequently run to create figures. Run time for all analyses is >24 hours. 
